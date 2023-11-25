@@ -1,6 +1,6 @@
 <div class="container p-6 bg-light">
     <div class="row">
-        <div class="col-10">
+        <div class="col-12">
             <h2>Contact</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna
@@ -10,30 +10,16 @@
             </p>
         </div>
     </div>
-    <form>
-        <div class="row">
-            <div class="col-10">
-                <div class="mb-3">
-                    <label for="inputEmail" class="form-label">Your E-Mail</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-                        placeholder="Your E-Mail">
-                </div>
-            </div>
+    <div class="mb-3 row text-center">
+        <label for="yourEmail" class="col-sm-3 col-form-label"><b>Your E-Mail</b></label>
+        <div class="col-4">
+          <input type="text" class="form-control" id="yourEmail" placeholder="Your E-Mail">
         </div>
-        <div class="row">
-            <div class="col-10">
-                <div class="mb-3">
-                    <label for="messageBox" class="form-label">Your message</label>
-                    <input type="messageBox" class="form-control" id="messageBox"
-                        placeholder="Please enter your message here...">
-                </div>
-            </div>
+      </div>
+      <div class="mb-3 row text-center">
+        <label for="messageBox" class="col-sm-3 col-form-label"><b>Your message</b></label>
+        <div class="col-4">
+          <textarea class="form-control" id="messageBox" placeholder="Your message here..."></textarea>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary d-end">Submit</button>
-            </div>
-        </div>
-    </form>
-
+      </div>
 </div>
